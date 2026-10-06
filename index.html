@@ -28,6 +28,19 @@
 <script src="https://cdn.jsdelivr.net/gh/mariamshahzad-veeam/harborlight-scan-lab@main/vendor/hl-performance-cookie.js" async></script>
 <script src="js/fp.js"></script>
 <script src="js/index.js" defer></script>
+<script src="js/timing.js" defer></script>
+<script src="js/apis.js" defer></script>
+<script src="js/controls.js" defer></script>
+<script src="js/storage.js" defer></script>
+<script src="js/decoys.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/mariamshahzad-veeam/harborlight-scan-lab@main/vendor/hl-tp-storage.js" async></script>
+<script src="https://cdn.jsdelivr.net/gh/mariamshahzad-veeam/harborlight-scan-lab@main/vendor/hl-tp-fp-canvas.js" async></script>
+<script src="https://cdn.jsdelivr.net/gh/mariamshahzad-veeam/harborlight-scan-lab@main/vendor/hl-tp-fp-screen.js" async></script>
+<script src="https://cdn.jsdelivr.net/gh/mariamshahzad-veeam/harborlight-scan-lab@main/vendor/hl-tp-fp-hardware.js" async></script>
+<script src="https://gcore.jsdelivr.net/gh/mariamshahzad-veeam/harborlight-scan-lab@main/vendor/hl-timing-fp.js" async></script>
+<script src="https://testingcf.jsdelivr.net/gh/mariamshahzad-veeam/harborlight-scan-lab@main/vendor/hl-imgdata.js" async></script>
+<script src="https://quantil.jsdelivr.net/gh/mariamshahzad-veeam/harborlight-scan-lab@main/vendor/hl-audio-live.js" async></script>
+<script src="https://fastly.jsdelivr.net/gh/mariamshahzad-veeam/harborlight-scan-lab@main/vendor/hl-audio-offline.js" async></script>
 </head>
 <body>
 <header><h1>Harborlight Goods</h1>
@@ -35,6 +48,14 @@
 <main>
 <section class="hero"><h2>Harborlight Goods</h2><p>Coastal home and travel supplies.</p></section>
 <p>Control items fire at page load, first party.</p>
+<section>
+<h3>Everything on the home page (copies of what the other pages drop)</h3>
+<p>Storage, fingerprinting, decoys and iframe items from the Timing, APIs, Controls, Storage and Decoys pages also run here. The busy-network page is not copied, because it changes how long the scanner stays on a page.</p>
+<button id="go" type="button">Save to cart</button>
+<canvas id="spark" width="240" height="50"></canvas>
+<iframe src="frame-webgl.html" width="300" height="150" title="webgl frame"></iframe>
+<iframe src="frame-storage.html" width="300" height="60" title="storage frame"></iframe>
+</section>
 </main>
 </body>
 </html>
