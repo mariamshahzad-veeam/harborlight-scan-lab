@@ -1,9 +1,2 @@
-FP.audioLive();
-FP.audioOffline();
-FP.getImageData();
-FP.canvasReadback();
 FP.fonts();
 FP.battery();
-FP.screenRead();
-FP.hardwareRead();
-FP.webgl();
