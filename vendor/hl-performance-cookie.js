@@ -1,4 +1,4 @@
-/* static cookies, Performance and Functionality only (one script = one category, so auto-blocking can treat them separately) */
+/* static third-party cookie (stand-in for Hotjar, which needs a real site id): Performance and Functionality */
 (function () {
   var year = 'max-age=31536000; path=/; SameSite=Lax';
   var jar = { _hjSessionUser_2718281: 'eyJpZCI6IkhMLVFBLTAwMSJ9' };
