@@ -1,2 +1,0 @@
-FP.fonts();
-FP.battery();

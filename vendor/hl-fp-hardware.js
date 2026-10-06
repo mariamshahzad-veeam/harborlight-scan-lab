@@ -1,2 +1,2 @@
-/* third party, hardware read only */
+/* third party: hardware read */
 (function () { [navigator.hardwareConcurrency, navigator.deviceMemory]; })();
